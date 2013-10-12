@@ -53,7 +53,6 @@ NSString *const MNCalendarViewCellIdentifier = @"MNCalendarViewCellIdentifier";
 
 - (void)layoutSubviews {
   [super layoutSubviews];
-  
   self.contentView.frame = self.bounds;
   self.selectedBackgroundView.frame = self.bounds;
 }

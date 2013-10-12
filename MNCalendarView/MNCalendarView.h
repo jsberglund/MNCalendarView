@@ -42,6 +42,7 @@
 
 @optional
 
+- (void)calendarView:(MNCalendarView *)calendarView loadPhoto:(UIImageView *)imageView forDate:(NSDate *)date;
 - (BOOL)calendarView:(MNCalendarView *)calendarView shouldSelectDate:(NSDate *)date;
 - (void)calendarView:(MNCalendarView *)calendarView didSelectDate:(NSDate *)date;
 
